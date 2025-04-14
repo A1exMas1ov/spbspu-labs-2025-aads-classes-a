@@ -158,11 +158,11 @@ int main()
       else if (name == "covers")
       {
         std::cout << getCovers(root, v1, v2) << "\n";
-      } 
+      }
       else if (name == "avoids")
       {
         std::cout << getAvoids(root, v1, v2) << "\n";
-      } 
+      }
       else
       {
         std::cerr << "<UNKNOWN COMMAND>\n";
